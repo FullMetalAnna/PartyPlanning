@@ -1,0 +1,449 @@
+/*
+#3496d8  plava
+#8f8f8f  tamno siva
+*/
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,900|Slabo+27px');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Slabo 27px', serif;
+    color: #8f8f8f;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: 40px auto;
+}
+
+/* --- HEADER ---- */
+header {
+    background-image: url(img/red-white-and-brown-gift-boxes-1303081.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    margin-left: 50px;
+    text-transform: uppercase;
+}
+
+.logo {
+    color: white;
+    font-size: 2.5rem;
+    text-decoration: none;
+}
+
+hgroup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 60%;
+
+}
+
+header hgroup h1 {
+    color: wheat;
+    font-size: 3.3rem;
+    padding: 10px;
+
+}
+
+header hgroup p {
+    color: wheat;
+    font-size: 2rem;
+
+}
+
+header hgroup button {
+    padding: 10px 30px;
+    margin: 10px;
+    background-color: coral;
+    color: wheat;
+    border-radius: 80px;
+}
+
+heade hgroup .row {
+    display: flex;
+    flex-direction: row;
+}
+
+header hgroup .row .col {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+
+}
+
+header hgroup .row .col a {
+    padding: 20px;
+    font-size: 1.5rem;
+    color: indianred;
+
+}
+
+.introduction {
+    display: flex;
+}
+
+.introduction img {
+    width: 90%;
+    box-shadow: 10px 15px 10px rgba(0, 0, 0, .5);
+}
+
+.introduction .col {
+    flex: 1;
+}
+
+.introduction .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+
+}
+
+.introduction .text h1 {
+    font-size: 3.3rem;
+    color: orange;
+    padding-bottom: 25px;
+
+}
+
+.introduction .text p {
+    font-size: 1.2rem;
+    font-family: cursive;
+}
+
+.service {
+    display: flex;
+}
+
+.service .col {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.service .col img {
+    width: 90%;
+    box-shadow: 10px 15px 10px rgba(0, 0, 0, .5);
+}
+
+.service .col h1 {
+    padding: 10px;
+    color: orange;
+    font-size: 2.2rem;
+}
+
+.service .col button {
+    padding: 10px 30px;
+    margin: 10px;
+    background-color: saddlebrown;
+    color: wheat;
+    border-radius: 10px;
+}
+
+.dva {
+    display: flex;
+    background-image: url(img/white-smartphone-beside-silver-laptop-computer-1036808.jpg);
+    background-position: top;
+    background-size: cover;
+    height: 55vh;
+
+}
+
+.dva .col {
+    flex: 1;
+    text-align: left;
+    padding: 20px;  
+    flex-direction: column;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+
+}
+
+.dva .text {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 90px;
+     font-family: cursive;
+}
+
+.dva .text h1 {
+    font-size: 2.2rem;
+    padding: 10px;
+    color: orange;
+    text-shadow: 2px 2px 4px #000000;
+
+
+}
+
+.dva .text button {
+    padding: 10px 30px;
+    margin: 10px;
+    background-color: saddlebrown;
+    color: wheat;
+    border-radius: 10px;
+}
+
+.dva .text p {
+    color: orange;
+    font-size: 1.2rem;
+    padding: 10px;
+    text-shadow: 2px 2px 4px #000000;
+
+}
+
+.dva .link {  
+    padding: 20px;
+    align-items: center;
+}
+
+.dva .link h1 {
+    font-size: 2.2rem;
+    padding: 40px;
+    color: orange;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.tri {
+    display: flex;
+}
+
+.tri .col {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    font-family: cursive;
+}
+
+.tri .col img {
+    width: 90%;
+    box-shadow: 10px 15px 10px rgba(0, 0, 0, .5);
+}
+
+.tri .col h1 {
+    color: goldenrod;
+    padding: 20px;
+   
+}
+
+
+.cetiri {
+    display: flex;
+    background-color: antiquewhite;
+}
+
+.cetiri .col {
+    flex: 1;
+    text-align: left;
+    padding: 10px;
+    flex-direction: column;
+}
+
+.cetiri .col .img img  {   
+  align-self: center;
+  display: flex;
+    justify-content: center;
+}
+
+.cetiri .text {
+    display: flex;
+    justify-content: center;
+    
+
+}
+.cetiri .text h1 {
+    padding-bottom: 20px;
+    font-size: 2.4rem;
+    color: saddlebrown;
+}
+
+.cetiri .text p {
+    padding-bottom: 10px;
+    font-size: 1rem;
+    font-family: cursive;
+}
+
+footer {
+    display: flex;
+}
+
+footer .col {
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+footer .text {
+    padding: 40px;
+    color: coral;
+    
+
+}
+
+footer .text h1 {
+    font-size: 2.2rem;
+    padding-bottom: 20px;
+    text-shadow: 2px 1px 2px #000000;
+}
+
+footer .text h3 {
+    font-size: 1.2rem;
+    padding-bottom: 10px;
+    text-shadow: 2px 1px 2px #000000;
+}
+footer .text p {
+    padding-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+footer .text p i {
+    padding: 10px;
+}
+footer .map {
+    padding: 50px;
+        
+
+    
+}
+
+
+
+/* ----- RESPONSIVE ----- */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    header {
+        height: 40vh;
+    }
+    
+    header hgroup .row .col a {
+        font-size: 2rem;
+    }
+    .dva .col {
+    flex: 1;
+    text-align: left;
+    padding: 20px;  
+    flex-direction: column;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+
+}
+    .cetiri {
+    display: flex;
+    background-color: antiquewhite;
+        flex-direction: column;
+}
+
+.cetiri .col {
+    flex: 1;
+    text-align: left;
+    padding: 10px;
+    flex-direction: column;
+    height: auto;
+}
+
+.cetiri .text {
+    display: flex;
+height: auto;
+    width: auto;
+}
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+        header {
+        height: 40vh;
+    }
+    
+    header hgroup .row .col a {
+        font-size: 2rem;
+    }
+    .dva .col {
+    flex: 1;
+    text-align: left;
+    padding: 20px;  
+    flex-direction: column;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+
+}
+    .cetiri {
+    display: flex;
+    background-color: antiquewhite;
+        flex-direction: column;
+}
+
+.cetiri .col {
+    flex: 1;
+    text-align: left;
+    padding: 10px;
+    flex-direction: column;
+    height: auto;
+}
+
+.cetiri .text {
+    display: flex;
+height: auto;
+    width: auto;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
